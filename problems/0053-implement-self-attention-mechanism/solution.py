@@ -19,13 +19,15 @@ def self_attention(Q, K, V):
     Returns:
         Attention output of shape (seq_len, d_v)
     """
+    # Your code here
     d_k = Q.shape[-1]
 
-    scores = np.dot(Q, K.T) / np.sqrt(d_k)
-
-    exp_scores = np.exp(scores - np.max(scores, axis=-1, keepdims=True))
-    attention_weights = exp_scores / np.sum(exp_scores, axis=-1, keepdims=True)
-
-    output = np.dot(attention_weights, V)
-
+    scores = torch.matmul(Q, K.T) / torch.sqrt(torch.tensor(d_k, dtype=Q.dtype))
+    exp_scores = torch.exp(scores - torch.max(scores, dim=-1, keepdim=True).values)
+    attention_weights = exp_scores / torch.sum(exp_scores, dim=-1, keepdim=True)
+    output = torch.matmul(attention_weights, V)
     return output
+
+    
+
+
