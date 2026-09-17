@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:50:39.028Z",
+  "generated_at": "2026-09-17T18:26:26.834Z",
   "items": {
     "problem:53": {
       "kind": "problem",
@@ -11,6 +11,19 @@
       "path": "problems/0053-implement-self-attention-mechanism",
       "first_solved_at": "2026-09-15T04:46:56.062Z",
       "last_pushed_at": "2026-09-15T04:50:38.140Z",
+      "language": "python",
+      "lines": 34
+    },
+    "problem:415": {
+      "kind": "problem",
+      "id": "415",
+      "title": "Roofline Model Analysis for GPU Operations",
+      "difficulty": "medium",
+      "category": "Inference",
+      "url": "https://www.deep-ml.com/problems/415",
+      "path": "problems/0415-roofline-model-analysis-for-gpu-operations",
+      "first_solved_at": "2026-09-17T18:26:26.065Z",
+      "last_pushed_at": "2026-09-17T18:26:26.065Z",
       "language": "python",
       "lines": 34
     }

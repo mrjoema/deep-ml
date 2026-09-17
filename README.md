@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**1** solved · 1 problems · 0 labs · 0 math
+**2** solved · 2 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -13,6 +13,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-09-15 | [solution](problems/0053-implement-self-attention-mechanism) |
+| [Roofline Model Analysis for GPU Operations](https://www.deep-ml.com/problems/415) | medium | 2026-09-17 | [solution](problems/0415-roofline-model-analysis-for-gpu-operations) |
 
 ---
 
